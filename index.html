@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#10b981" />
+  <title>DOVA — Do What Matters</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/styles.css" />
+  <style>
+    .landing {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      text-align: center;
+    }
+    .landing-logo {
+      width: 80px;
+      height: 80px;
+      background: var(--do-primary);
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: 800;
+      font-size: 36px;
+      margin-bottom: 24px;
+      box-shadow: 0 8px 32px rgba(16, 185, 129, 0.35);
+    }
+    .landing h1 {
+      font-size: 42px;
+      font-weight: 800;
+      color: var(--text-primary);
+      letter-spacing: -1px;
+    }
+    .landing .slogan {
+      font-size: 18px;
+      color: var(--text-secondary);
+      margin-top: 8px;
+    }
+    .landing .links {
+      display: flex;
+      gap: 12px;
+      margin-top: 32px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .landing .links a {
+      padding: 12px 24px;
+      background: var(--do-primary);
+      color: white;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: 700;
+      transition: transform 0.2s;
+    }
+    .landing .links a.secondary {
+      background: var(--surface-container);
+      color: var(--text-primary);
+    }
+    .landing .links a:hover {
+      transform: translateY(-2px);
+    }
+  </style>
+</head>
+<body>
+  <div class="landing">
+    <img src="assets/logo.png" alt="DOVA Logo" class="landing-logo-img" />
+<h1>DOVA</h1>
+<p class="slogan">Do What Matters</p>
+    <div class="links">
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="terms-of-service.html" class="secondary">Terms of Service</a>
+    </div>
+  </div>
+  <script src="assets/script.js"></script>
+</body>
+</html>
